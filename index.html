@@ -8,13 +8,13 @@
     <link href="./dist/output.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="flex justify-center justify-items-center">
-    <main class="flex justify-center justify-items-center">
-        <textarea class="w-600 h-200 border-2 border-black mx-8" id="phoneInput" placeholder="Input phone number"></textarea>
+<body>
+    <main class="phoneNumList">
+        <textarea id="phoneInput" placeholder="Input phone number"></textarea>
     
-        <button class="rounded-none bg-indigo-500 border-2 border-black" onclick="processNumbers()">Submit</button>
-        <pre class="w-600 h-200 border-2 border-black mx-10" id="phoneNumbers" aria-placeholder="Output phone number"></pre>
-        <button class="rounded-none bg-indigo-500 border-2 border-black mx-8" onclick="copyFormattedNumbers()">Copy</button>
+        <button class="button" onclick="processNumbers()">Submit</button>
+        <pre class="outputPhoneNumbers" id="phoneNumbers" aria-placeholder="Output phone number"></pre>
+        <button class="button" onclick="copyFormattedNumbers()">Copy</button>
 
     </main>
 

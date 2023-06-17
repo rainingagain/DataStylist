@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    width: 1280px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.phoneNumList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+}
+textarea {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    pad: 5px;
+}
+.outputPhoneNumbers {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
