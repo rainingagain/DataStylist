@@ -5,7 +5,7 @@ function processNumbers() {
     const numbers = inputNumbers.split(/\n/).filter(number => number.trim() !== ""); 
   
     const formattedNumbers = [];
-    numbers.forEach((number, index) => {
+    numbers.forEach((number) => {
       number = number.replace(/\D/g, "");
       if (number.length === 10) {
         number = "'" + "7" + number + "'" + ",";
